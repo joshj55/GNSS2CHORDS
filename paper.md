@@ -7,7 +7,7 @@ tags:
   - UNAVCO
   - EarthCube CHORDS
 authors:
-  - J. Robert Jones^[corresponding author: joshj55@vt.edu]
+  - J. Robert Jones
     orcid:0000-0002-6078-4287
     affiliation: "1"
   - D. Sarah Stamps
