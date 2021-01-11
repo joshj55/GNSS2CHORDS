@@ -8,19 +8,19 @@ tags:
   - EarthCube CHORDS
 authors:
   - name: Joshua Robert Jones
-    orcid:0000-0002-6078-4287
+    orcid: 0000-0002-6078-4287
     affiliation: "1"
   - name: D. Sarah Stamps
-    orcid:0000-0002-3531-1752
+    orcid: 0000-0002-3531-1752
     affiliation: "1"
   - name: Michael Daniels
-    orcid:0000-0003-1889-4084
+    orcid: 0000-0003-1889-4084
     affiliation: "2"
   - name: Charlie Martin 
-    orcid:0000-0001-5627-6266
+    orcid: 0000-0001-5627-6266
     affiliation: "2"
   - name: David Mencin
-    orcid:0000-0001-9984-6724
+    orcid: 0000-0001-9984-6724
     affiliation: "3"
   - name: ThaoVy Nguyen
     affiliation: "1"
@@ -31,6 +31,7 @@ affiliations:
     index: 2
   - name: UNAVCO, Boulder, CO
     index: 3
+
 date: 11 January 2020
 bibliography: paper.bib
 ---
