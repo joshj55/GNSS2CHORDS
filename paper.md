@@ -7,22 +7,22 @@ tags:
   - UNAVCO
   - EarthCube CHORDS
 authors:
-  - J. Robert Jones
+  - name: Joshua Robert Jones
     orcid:0000-0002-6078-4287
     affiliation: "1"
-  - D. Sarah Stamps
+  - name: D. Sarah Stamps
     orcid:0000-0002-3531-1752
     affiliation: "1"
-  - Michael Daniels
+  - name: Michael Daniels
     orcid:0000-0003-1889-4084
     affiliation: "2"
-  - Charlie Martin 
+  - name: Charlie Martin 
     orcid:0000-0001-5627-6266
     affiliation: "2"
-  - David Mencin
+  - name: David Mencin
     orcid:0000-0001-9984-6724
     affiliation: "3"
-  - ThaoVy Nguyen
+  - name: ThaoVy Nguyen
     affiliation: "1"
 affiliations:
   - name: Virginia Tech, Blacksburg, VA
