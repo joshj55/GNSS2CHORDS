@@ -1,13 +1,11 @@
 ---
 title: 'GNSS2CHORDS: A new tool for connecting UNAVCO Real-Time GNSS Data Services to CHORDS' 
-
 tags:
   - Python
   - GNSS/GPS
   - Real-Time Data
   - UNAVCO
   - EarthCube CHORDS
-
 authors:
   - J. Robert Jones^[corresponding author: joshj55@vt.edu]
     orcid:0000-0002-6078-4287
@@ -26,7 +24,6 @@ authors:
     affiliation: "3"
   - ThaoVy Nguyen
     affiliation: "1"
-
 affiliations:
   - name: Virginia Tech, Blacksburg, VA
     index: 1
@@ -34,10 +31,8 @@ affiliations:
     index: 2
   - name: UNAVCO, Boulder, CO
     index: 3
-
 date: 11 January 2020
-
-bibliograpy: paper.bib
+bibliography: paper.bib
 ---
 
 # Summary
