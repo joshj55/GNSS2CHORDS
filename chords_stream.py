@@ -209,9 +209,10 @@ if __name__=='__main__':
 		if gnss_line[0] == '$':
 			if verbose:
 				print(gnss_line)
-			write_file(gnss_line)
+			#write_file(gnss_line)
 			chords_parse.send_to_chords(
-				gnss_line=chords_parse.read_file("chords_temp.txt"), 
+				#gnss_line=chords_parse.read_file("chords_temp.txt"),
+				gnss_line=gnss_line 
 				chords_ip=chords_ip, 
 				chords_key=chords_key,
 				chords_inst_id=chords_inst_id, verbose=verbose)
