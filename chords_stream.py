@@ -2,7 +2,7 @@
 
 ##Creators: 1. Josh Jones, 1. D. Sarah Stamps, 2. Charles Martin
 ##Institutions: 1. Virginia Tech, Blacksburg, Va. 2. UCAR, Boulder, Co.
-##Date last modified: 18 Dec 2020
+##Date last modified: 13 Jan 2021
 
 ##This script is the streaming section of the UNAVCO -> CHORDS workflow
 ##includes connections to nclient_beta, UNAVCO caster and chords_parse

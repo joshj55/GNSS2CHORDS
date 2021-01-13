@@ -1,7 +1,7 @@
 #!INSERT/PATH/HERE
 
 ##Created by: Josh Jones, D. Sarah Stamps, Charles Martin
-##Date last modified: 18 Dec 2018
+##Date last modified: 13 Jan 2021
 ##This script is the parsing section of the UNAVCO -> CHORDS workflow
 ##includes connections to nclient_beta, UNAVCO caster and chords_stream
 ##Please read the README.txt before starting

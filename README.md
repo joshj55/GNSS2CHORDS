@@ -1,10 +1,10 @@
 ## Introduction
 
-This is the README file with information and instructions for the suite of scripts used to access UNAVCO Real-Time Data streams and upload parsed data to the online cybertool CHORDS. You can find additional CHORDS documentation in this repository or from the main [CHORDS documentation](https://earthcubeprojects-chords.github.io/chords-docs/)
+This is the README file with information and instructions for the suite of scripts used to access UNAVCO real-time data streams and upload parsed data to the online cybertool CHORDS. You can find additional CHORDS documentation in this repository or from the main [CHORDS documentation](https://earthcubeprojects-chords.github.io/chords-docs/).
 
 Creators: 1. Josh Jones, 1. D. Sarah Stamps, 2. Charles Martin  
 Institutions: 1. Virginia Tech, Blacksburg, VA. 2. UCAR, Boulder, CO.  
-Date last modified: 18 Dec 2020
+Date last modified: 13 Jan 2021
 
 The following are the scripts provided and required for the package GNSS2CHORDS.
 These scripts require Python2.7 to run.
@@ -67,11 +67,9 @@ This directory needs to be current enough to run the python module `psutil`.
 
 5. Run either `./chords_stream.py` or to run in the background `./chords_stream.py &&`.
 * Standard output will print connection status and potential errors 
-* For no messages, run `./chords_stream.py > dev/null &&`.
+* For no messages, run `./chords_stream.py > & dev/null &`.
 * This script will call the others in the correct order.
 
-6. A file called `chords_temp.txt` will be generated after starting, but it will be empty.
-
-7. Check your CHORDS portal to see if the stream is successful.
+6. Check your CHORDS portal to see if the stream is successful.
 * This script, if not run from the background, will have to be stopped to run another command in the same terminal window. 
 
