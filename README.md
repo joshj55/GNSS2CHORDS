@@ -67,7 +67,7 @@ This directory needs to be current enough to run the python module `psutil`.
 
 5. Run either `./chords_stream.py -j parameter.json` or to run in the background `./chords_stream.py -j parameter.json &&`.
 * Standard output will print connection status and potential errors 
-* For no messages, run `./chords_stream.py > & dev/null &`.
+* For no messages, run `./chords_stream.py -j parameter.json > & /dev/null &`.
 * This script will call the others in the correct order.
 
 6. Check your CHORDS portal to see if the stream is successful.
