@@ -1,8 +1,8 @@
-#!ENTER/PATH/HERE
+#!/usr/bin/python
 
 ##Creators: 1. Josh Jones, 1. D. Sarah Stamps, 2. Charles Martin
 ##Institutions: 1. Virginia Tech, Blacksburg, Va. 2. UCAR, Boulder, Co.
-##Date last modified: 13 Jan 2021
+##Date last modified: 24 July 2021
 
 ##This script is the streaming section of the UNAVCO -> CHORDS workflow
 ##includes connections to nclient_beta, UNAVCO caster and chords_parse
@@ -212,7 +212,7 @@ if __name__=='__main__':
 			#write_file(gnss_line)
 			chords_parse.send_to_chords(
 				#gnss_line=chords_parse.read_file("chords_temp.txt"),
-				gnss_line=gnss_line 
+				gnss_line=gnss_line, 
 				chords_ip=chords_ip, 
 				chords_key=chords_key,
 				chords_inst_id=chords_inst_id, verbose=verbose)
