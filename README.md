@@ -65,7 +65,7 @@ This directory needs to be current enough to run the python module `psutil`.
 
 4. Edit the parameter file to add the sites you want data from and the CHORDS portal ID's.
 
-5. Run either `./chords_stream.py` or to run in the background `./chords_stream.py &&`.
+5. Run either `./chords_stream.py -j parameter.json` or to run in the background `./chords_stream.py -j parameter.json &&`.
 * Standard output will print connection status and potential errors 
 * For no messages, run `./chords_stream.py > & dev/null &`.
 * This script will call the others in the correct order.
